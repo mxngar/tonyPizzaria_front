@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Tela\ Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 18vh;
+    width: 100vw;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.container{
+    padding: 22px 22px;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+}
+
+.titulo-home{
+    font-size: 30px;
+    font-weight: 900;
+   
+}
+
+.foto{
+    padding: 0px 26px;
+}
+
+#input{
+    background-image: url(./img/Lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    width: 85%;
+    padding: 4px 14px;
+    color: #999999;
+}
+
+#input::placeholder{
+    color: orange;
+}
+
+main{
+    height: 74vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    gap: 42px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+    background-color: #F93030;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizzas{
+    display: flex;
+    flex-direction: row;
+
+}
+.pizza1{
+    width: 140px;
+    height: 90px;
+    flex-shrink: 0;
+    
+}
+.pizza2{
+    width: 150px;
+    height: 90px;
+    flex-shrink: 0;
+    
+}
+
+.precos{
+    width: 57px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 10px 10px;
+    background: #F01212;
+    left: 30px;
+    top: 290px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+.descricao{
+    width: 110px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 0px 8px;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 306px;
+}
+
+
+
+.conteudo{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(236, 53, 53, 0.25);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 1700;
+    position: absolute;
+    top: 310px;
+}
+
+.conteudo p{
+    margin-left: 8px;
+}
+
+
+.valor{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    left: 36px;
+    top: 294px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+
+
+footer{
+    height: 8vh;
+    width: 99vw;
+    background-color: #F27706;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: azure;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.2em rgb(253, 93, 0);
+    margin-top: -30px;
+}
+
+
+.recomendados{
+    display: flex;
+    flex-direction: column;
+  
+}
+.titulo-recomendados{
+    color: azure;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.2em rgb(253, 93, 0);
+    margin-top: -35px;
+}
+
+.pizza img{
+    width: 120px;
+    margin-top: 0px;
+    cursor: pointer;
+   
+}
+
+.titulo-bebida{
+    color: azure;
+    margin-top: -30px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.2em rgb(253, 93, 0);
+    font-size: 15px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coca{
+    display: flex;
+    background-color: white;
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.descricao-produtos p{
+    font-size: 13px;
+    width: 70%;
+
+}
+
+.preco{
+    margin-left: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-right: 2px;
+    width: 28%;
+}
+
+.preco p{
+    margin-left: 10px;
+}
+
+.cerveja{
+    display: flex;
+    background-color: white;
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+.cerveja img{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.descricao-cerveja{
+    font-size: 13px;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.preco-cerveja{
+    margin-left: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-right: 2px;
+}
+
+.preco-cerveja p{
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 4px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.criarConta {
+    color: #F5F5F5;
+    position: absolute;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 80px;
+    left: 120px;
+  }

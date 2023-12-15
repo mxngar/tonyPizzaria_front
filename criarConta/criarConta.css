@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+    background: url(./img/pizza.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 369px;
+    height: 246px;
+    flex-shrink: 0;
+    z-index: -3;
+    position: absolute;
+}
+
+.quadradoLaranja{
+    width: 360px;
+    height: 275px;
+    flex-shrink: 0;
+    background: rgba(252, 121, 0, 0.75);
+    z-index: -2;
+}
+
+.voltar{
+    background-image: url(./img/voltar.png);
+    width: 12px;
+    height: 19.433px;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    left: 20px;
+}
+
+.adcFto{
+    width: 111px;
+    height: 111px;
+    flex-shrink: 0;
+    background-color: #C4C4C4;
+    border-radius:100px ;
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    align-items: center;
+    left: 120px;
+}
+.perfil{
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    z-index: 4;
+    top: 80px;
+    left: 126px;
+}
+
+.adicionarFto{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: #F93030;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 4;
+    top: 150px;
+    left: 190px;
+}
+
+.frase1{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 38px;
+    left: 60px;
+
+}
+
+.retanguloBranco{
+    border-radius: 32px;
+    position: fixed;
+    background: #ffffff;
+    width: 360px;
+    height: 120px;
+    flex-shrink: 0;
+    top: 200px;
+    z-index: 1;
+    
+   
+}
+
+.criarContaa{
+    width: 303px;
+    height: 54px;
+    border-radius: 8px;
+    background: #15775a;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    left: 30px;
+}
+
+.frase3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    bottom: 56px;
+    left: 140px;
+
+}
+
+.criar{
+    position: absolute;
+    top: 250px;
+    z-index: 4;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nomeUsuario{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.endEmail{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.senha{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.confirmacaoSenha{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.telefone{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+input {
+    padding: 2px;
+    margin-right: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+hr{
+    width: 80vw;
+}
+
+

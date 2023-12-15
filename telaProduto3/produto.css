@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.voltar{
+    background-image: url(./img/voltar.png);
+    width: 12px;
+    height: 19.433px;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    left: 20px;
+}
+header{
+    background-image: url(./img/pizza4\ 1.svg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.vector{
+    padding: 50px 25px;
+}
+
+main{
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    display: flex;
+    padding: 34px 26px;
+    gap: 62px;
+    height: 144px;
+}
+
+.title_text{
+    display: inherit;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text_title{
+    opacity: 0.6;
+}
+
+.price{
+    color: #23CB98;
+}
+
+.description{
+    padding: 0px 26px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.estrelas{
+    display: flex;
+    padding: 18px 26px;
+}
+
+.comentarios{
+    padding: 0px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.comentarios__header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comentarios__header label{
+    font-size: 16px;
+    font-weight: 700;
+    opacity: .7;
+}
+
+.comentarios__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comentario{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.comentario__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+}
+
+.comentario__header__info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.comentario__nome{
+    display: inherit;
+    flex-direction: column;
+    font-size: 14px;
+    color: #AEA6A6;
+}
+
+.comentario__content{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 0px 12px;
+    gap: 6px;
+}
+
+.comentario__title{
+    font-weight: 700;
+    color: #AEA6A6;
+}
+
+.comentario__text{
+    color: #999999;
+    padding-bottom: 10px;
+}
+
+.desaparecer{
+    display: none;
+}
+.apagar{
+    opacity: .5;
+}

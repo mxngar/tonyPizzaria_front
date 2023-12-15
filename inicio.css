@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background: url(./img/pizza.png), lightgray 50% / cover no-repeat;
+    width: 360px;
+    height: 740px;
+    flex-shrink: 0;
+    position: fixed;
+    z-index: -2;
+}
+
+.img1{
+    position: absolute;
+    margin: 20px;
+    width: 30px;
+    height: 40px;
+    
+}
+
+.pizzaria{
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 100px;
+    color: white;
+    position: absolute;
+    text-align: justify;
+    margin-left: 150px; 
+    top: 60px;
+}
+
+.retangulo1{
+    width: 360px;
+    height: 740px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(252, 121, 0, 0.85) 47.4%, rgba(252, 121, 0, 0.00) 100%);
+    position: relative;
+     z-index: -1;
+}
+
+.textoPrincipal{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-style: normal;
+    width: 256px;
+    height: 99px;
+    align-items: center;
+    bottom: 420px;
+    left: 30px;
+    position: relative;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.texto2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    bottom: 270px;
+    left: 30px;
+    position: absolute;
+    letter-spacing: 1px;
+    
+    
+}
+
+.retangulo2{
+    width: 295px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 34px;
+    cursor: pointer;
+}
+
+.texto1{
+    font-family: 'Roboto', sans-serif;
+    color: #f17500;
+    position: absolute;
+    bottom: 35px;
+    left: 125px;
+    
+}
